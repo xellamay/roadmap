@@ -26,6 +26,9 @@
             <button class="btn btn-large btn-gradient">Subscribe</button>
           </div>
         </div>
+        <div id="mobile_menu_icon" class="header__menu">
+          <svg viewBox="0 0 24 24" focusable="false" class="chakra-icon css-17elikm" aria-hidden="true"><path fill="currentColor" d="M 3 5 A 1.0001 1.0001 0 1 0 3 7 L 21 7 A 1.0001 1.0001 0 1 0 21 5 L 3 5 z M 3 11 A 1.0001 1.0001 0 1 0 3 13 L 21 13 A 1.0001 1.0001 0 1 0 21 11 L 3 11 z M 3 17 A 1.0001 1.0001 0 1 0 3 19 L 21 19 A 1.0001 1.0001 0 1 0 21 17 L 3 17 z"></path></svg>
+        </div>
       </div>
     </div>
   </header>
@@ -40,9 +43,9 @@
       <p class="content_paragraf">Step by step guide to becoming a modern frontend developer in 2022</p>
       <div class="content__btn">
         <div class="btn-group">
-          <a class="btn">All Roadmaps</a>
-          <a class="btn btn-yellow">Download</a>
-          <a class="btn btn-yellow">Subscribe</a>
+          <a class="btn btn-group__item">All Roadmaps</a>
+          <a class="btn btn-yellow btn-group__item">Download</a>
+          <a id="btn_subscribe" class="btn btn-yellow btn-group__item">Subscribe</a>
         </div>
         <div>
          <a class="btn btn-green">Suggest Changes</a>
@@ -52,6 +55,18 @@
       </div>
     </div>
   </div>
+
+  <section id="menu_overlay" class="menu__overlay">
+    <div id="mobile_close_icon" class="header__menu icon__close">
+      <svg viewBox="0 0 24 24" focusable="false" class="chakra-icon css-onkibi" aria-hidden="true"><path fill="currentColor" d="M.439,21.44a1.5,1.5,0,0,0,2.122,2.121L11.823,14.3a.25.25,0,0,1,.354,0l9.262,9.263a1.5,1.5,0,1,0,2.122-2.121L14.3,12.177a.25.25,0,0,1,0-.354l9.263-9.262A1.5,1.5,0,0,0,21.439.44L12.177,9.7a.25.25,0,0,1-.354,0L2.561.44A1.5,1.5,0,0,0,.439,2.561L9.7,11.823a.25.25,0,0,1,0,.354Z"></path></svg>
+    </div>
+    <div class="mobile__menu">
+      <a class="nav__link mobile__link" href="#">Roadmaps</a>
+			<a class="nav__link mobile__link" href="#">Videos</a>
+			<a class="nav__link mobile__link" href="#">Guieds</a>
+      <a class="nav__link mobile__link" href="#">Subscribe</a>
+    </div>
+  </section>
 
   <script src="scripts.js"></script>
 </body>
