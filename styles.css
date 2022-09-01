@@ -59,6 +59,11 @@ p {
   font-size: 15px;
 }
 
+.btn-blue {
+  background-color: #2b4cf4;
+  padding: 6px 7px;
+}
+
 /* BUTTON-GROUP */
 
 .btn-group {
@@ -219,6 +224,69 @@ p {
   position: absolute;
   right: 24px;
   top: 24px;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  padding: 40px 0;
+  background-color: black;
+}
+
+.footer__container {
+  max-width: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__nav {
+  margin-bottom: 50px;
+}
+
+.footer__link {
+  margin-right: 25px;
+  margin-left: 0;
+  opacity: 0.7;
+}
+
+.footer__link:hover {
+  opacity: 1;
+}
+
+.footer__logo {
+  margin-top: 45px;
+  display: flex;
+  align-items: center;
+  color:aliceblue;
+}
+
+.footer__text {
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.7;
+  margin-right: 10px;
+}
+
+.footer__paragraf {
+  color: aliceblue;
+  opacity: 0.7;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 15px 0px;
+}
+
+.sub__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  font-size: 13px;
+  font-weight: 300;
+  text-decoration: none;
+  opacity: 0.7;
 }
 
 /* MOBILE */
